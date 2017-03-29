@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:batch="http://www.springframework.org/schema/batch"
+	xmlns:task="http://www.springframework.org/schema/task"
+	xmlns:util="http://www.springframework.org/schema/util"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:int-ftp="http://www.springframework.org/schema/integration/ftp"
+	xsi:schemaLocation="http://www.springframework.org/schema/batch
+	http://www.springframework.org/schema/batch/spring-batch.xsd
+	http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans.xsd
+	http://www.springframework.org/schema/util
+	http://www.springframework.org/schema/util/spring-util.xsd
+	http://www.springframework.org/schema/integration/ftp
+    http://www.springframework.org/schema/integration/ftp/spring-integration-ftp.xsd
+    http://www.springframework.org/schema/task
+    http://www.springframework.org/schema/task/spring-task.xsd">
+
+	<import resource="classpath:spring/batch/config/context.xml"/>
+
+
+	<batch:job id="JobSuspecoreTigoUne" restartable="true">
+		<batch:step id="step1" next="step2" >
+			<batch:tasklet ref="ftpGetRemoteFilesTasklet" transaction-manager="transactionManager">
+			</batch:tasklet>
+		</batch:step>
+		<batch:step id="step2" next="step3" allow-start-if-complete="false">
+			<batch:tasklet transaction-manager="transactionManager">
+				<batch:chunk reader="multiResourceItemReader" writer="CustomHibernateItemWriter"
+        			 processor="HboMoviesProcessor" commit-interval="10" />
+			</batch:tasklet>
+		</batch:step>
+		<batch:step id="step3">
+			<batch:tasklet ref="fileBackupTasklet" transaction-manager="transactionManager">
+			</batch:tasklet>
+		</batch:step>		
+	</batch:job>
+
+
+	<bean id="CustomHibernateItemWriter" class="com.example.writers.CustomHibernateItemWriter">
+		<property name="contentService" ref="ContentService"></property>
+	</bean>
+	
+	<bean id="ContentService" class="com.example.services.ContentService">
+		<property name="contentDAO" ref="ContentDAO"></property>
+	</bean>
+	
+	<bean id="ContentDAO" class="com.example.dao.ContentDAO">
+		<property name="sessionFactory" ref="sessionFactory" />
+		
+	</bean>
+
+	<bean id="runScheduler" class="com.example.scheduler.RunScheduler">
+		<property name="job" ref="JobSuspecoreTigoUne"/>
+		<property name="jobLauncher" ref="jobLauncher"/>
+	</bean>
+
+	<!-- Run every 5 seconds -->
+	<task:scheduled-tasks>
+		<task:scheduled ref="runScheduler" method="run" cron="*/5 * * * * *" />
+	</task:scheduled-tasks>
+
+	<!-- ItemWriter which writes data to database -->
+	<bean id="hibernateDatabaseItemWriter" class="org.springframework.batch.item.database.HibernateItemWriter">
+		<property name="sessionFactory" ref="sessionFactory" />	
+		<property name="clearSession" value="true"></property>	
+	</bean>
+
+	<bean id="moviesMarshaller" class="org.springframework.oxm.jaxb.Jaxb2Marshaller">
+		<property name="classesToBeBound">
+			<list>
+				<value>com.example.model.Content</value>
+				<value>com.example.model.AppData</value>
+				<value>com.example.model.Ams</value>
+				<value>com.example.model.CtAMS</value>
+				<value>com.example.model.Asset</value>
+				<value>com.example.model.ADI</value>
+			</list>
+		</property>
+	</bean>
+
+	<bean id="multiResourceItemReader" class="org.springframework.batch.item.file.MultiResourceItemReader" scope="step" >
+		<property name="resources" value="file:/home/ivan/Desktop/shared/Java-Projects/TigoUne-HBOBatch/LocalBatch/*.xml" />
+		<property name="delegate" ref="xmlItemReader" />
+		<property name="saveState" value="true"/>
+		<property name="strict" value="false"/>
+		
+	</bean>
+
+	<bean id="xmlItemReader"
+        class="org.springframework.batch.item.xml.StaxEventItemReader">
+		<property name="fragmentRootElementName" value="ADI" />
+		<property name="unmarshaller" ref="ordenUnmarshaller" />
+	</bean>
+
+	<!-- Read and map values to object, via jaxb2 -->
+	<bean id="ordenUnmarshaller" class="org.springframework.oxm.jaxb.Jaxb2Marshaller">
+		<property name="classesToBeBound">
+			<list>		
+				<value>com.example.model.Content</value>
+				<value>com.example.model.AppData</value>
+				<value>com.example.model.Ams</value>
+				<value>com.example.model.CtAMS</value>
+				<value>com.example.model.Asset</value>
+				<value>com.example.model.ADI</value>
+			</list>
+		</property>
+	</bean>  
+
+	<bean id="ftpClientFactory"
+    class="org.springframework.integration.ftp.session.DefaultFtpSessionFactory">
+		<property name="host" value="localhost"/>
+		<property name="port" value="21"/>
+		<property name="username" value="ivan"/>
+		<property name="password" value="ihidalgo308549"/>
+		<property name="clientMode" value="0"/>
+		<property name="fileType" value="2"/>
+		<property name="bufferSize" value="100000"/>
+	</bean>
+
+	<bean id="ftpGetRemoteFilesTasklet" class="com.example.Tasklet.FtpGetRemoteFilesTasklet" >
+		<property name="retryIfNotFound" value="true" />
+		<property name="downloadFileAttempts" value="3" />
+		<property name="retryIntervalMilliseconds" value="10000" />
+		<property name="fileNamePattern" value="*.xml" />
+		<property name="remoteDirectory" value="/files/" />
+		<property name="localDirectory" ref="file" />
+		<property name="sessionFactory" ref="ftpClientFactory" />
+		<property name="autoCreateLocalDirectory" value="false"/>
+		<property name="deleteRemoteFiles" value="true" />
+	</bean>
+
+
+	<bean id="fileBackupTasklet" class="com.example.Tasklet.FileBackupTasklet" >
+		<property name="sourceDirectory" value="file:/home/ivan/Desktop/shared/Java-Projects/TigoUne-HBOBatch/LocalBatch/" />
+		<property name="destDirectory" value="/home/ivan/Desktop/shared/Java-Projects/TigoUne-HBOBatch/Backup/" />
+		<property name="dateFormatPattern" value="yyyyMMddHHmmssmm" />
+		<property name="fileNamePattern" value=".xml" />
+		<property name="fileHelper" ref="fileHelper" />
+	</bean>
+
+	<bean id="file" class="java.io.File">
+		<constructor-arg value="/home/ivan/Desktop/shared/Java-Projects/TigoUne-HBOBatch/LocalBatch/"/>
+	</bean>
+
+	<bean id="customStepListener" class="com.example.listener.CustomStepListener">
+	</bean>
+
+	<bean id="fileHelper" class="com.example.helpers.FileHelper" scope="singleton">
+		<property name="fileNamePattern" value=".xml" />
+	</bean>
+
+	<bean id="HboMoviesProcessor" class="com.example.processor.HboMoviesProcessor" scope="prototype" />
+	<!-- Step will need a transaction manager -->
+	<bean id="batchTransactionManager" class="org.springframework.batch.support.transaction.ResourcelessTransactionManager" />
+
+
+</beans>

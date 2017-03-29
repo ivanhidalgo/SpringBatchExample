@@ -1,0 +1,781 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE ADI SYSTEM 'ADI.DTD'>
+<ADI>
+	<Metadata>
+		<AMS  Asset_ID="HHBO08233511015300" 
+			Creation_Date="2016-05-23"
+			Version_Major="1" 
+			Version_Minor="0"
+			Provider_ID="hbogo" 
+			Provider="hbogo" 
+			Asset_Class="package" />
+	</Metadata>
+	<Asset>
+	    <!-- Contenido (Content)-->
+		<Metadata>
+			<AMS  Asset_ID="HHBO08233511015300" Creation_Date="2016-05-23" Version_Major="1" Version_Minor="0" Provider_ID="hbogo" Provider="hbogo" Asset_Class="title" />
+			<App_Data App="SVOD" Name="Type" Value="title" />
+
+			<App_Data App="SVOD" Name="Title" Value="Felices Para Siempre: El Príncipe Feliz"/>
+			<App_Data App="SVOD" Name="Show_Type" Value="Movie"/>
+
+			<App_Data App="SVOD" Name="Summary_Short" Value="Una caradura paloma se hace amiga de una estatua de buen corazón en New York, y juntas, ayudarán a todas las personas pobres de la ciudad."/>
+			<App_Data App="SVOD" Name="Summary_Long" Value="Una caradura paloma se hace amiga de una estatua de buen corazón en New York, y juntas, ayudarán a todas las personas pobres de la ciudad." />
+			<App_Data App="MOD" Name="Rating" Value="G" />
+			<App_Data App="SVOD" Name="Display_Run_Time" Value="00:26" />
+			<App_Data App="SVOD" Name="Run_Time" Value="00:26:00" />
+			<App_Data App="SVOD" Name="Year" Value="1999" />
+
+			<App_Data App="SVOD" Name="Director" Value="Bell, Anthony" />
+
+
+			<App_Data App="SVOD" Name="Actors" Value="Koch, Ed" />
+
+			<App_Data App="SVOD" Name="Actors" Value="Lauper, Cyndi" />
+
+			<App_Data App="SVOD" Name="Actors_Display" Value="Ed Koch,   Cyndi Lauper" />
+			<App_Data App="SVOD" Name="Genre" Value="Familiar" />	
+			<App_Data App="SVOD" Name="Category" Value="On Demand/Programador/HBO/INFANTIL (HBO)" />
+			<App_Data App="SVOD" Name="Billing_ID" Value="" />
+			<App_Data App="SVOD" Name="Licensing_Window_Start" Value="2016-05-16" />
+			<App_Data App="SVOD" Name="Licensing_Window_End" Value="2019-06-30" />
+			<App_Data App="SVOD" Name="Title_Brief" Value="Felices Para Siempr" />
+			<App_Data App="SVOD" Name="Country_of_Origin" Value="US" />	
+
+			<App_Data App="SVOD" Name="Season_Number" Value=""/>
+			<App_Data App="SVOD" Name="Episode_ID" Value=""/> 
+			<App_Data App="SVOD" Name="Episode_Name" Value=""/> 
+
+		</Metadata>
+		<!-- Pelicula-->
+		<Asset>
+			<!-- Contenido (Content)-->
+			<Metadata>			 
+				<AMS Asset_ID="HHBO08233511015300"  Creation_Date="2016-05-23" Version_Minor="0" Version_Major="1" Provider_ID="hbogo" Provider="hbogo" Asset_Class="movie" />
+				<App_Data App="SVOD" Name="Type" Value="movie" />
+				<App_Data App="SVOD" Name="Languages" Value="en" /> 
+				<App_Data App="SVOD" Name="Languages" Value="es" />
+				<App_Data App="SVOD" Name="Dubbed_Languages" Value="es" />		
+				<App_Data App="SVOD" Name="Subtitle_Languages" Value="en" />
+				<App_Data App="SVOD" Name="HDContent" Value="Y" />
+				<!-- Maximum value -->
+				<App_Data App="SVOD" Name="Audio_Type" Value="Stereo" />
+				<!-- Maximum value -->
+				<App_Data App="SVOD" Name="Resolution" Value="1080i" />
+				<!-- Maximum value -->
+				<App_Data App="SVOD" Name="Screen_Format" Value="Widescreen" />
+				<!-- Maximum value -->
+				<App_Data App="SVOD" Name="Deliverer" Value="hbogo" />
+				<!-- Fixed value -->
+			</Metadata>
+
+
+
+			<Asset>
+				<Metadata>			 
+					<AMS Asset_ID="HHBO08233511015300" Creation_Date="2016-05-23" Version_Minor="0" Version_Major="1" Provider_ID="hbogo" Provider="hbogo" Asset_Class="stream" />	
+					<App_Data App="SVOD" Name="Type" Value="SSO" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="URL" Value="http://l3edvphtvp01.cust.footprint.net/B08233506_11EPRHS10C/B08233506_11EPRHS10C_c5.m3u8"/>
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Manifest_Number" Value="c5" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="DRM_Provider" Value="PR-Envelope" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Packaging" Value="HLS" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Usage" Value="VOD" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Provider" Value="hbogo" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Provider_Ref" Value="HHBO08233511015300" />
+					<!-- Asset_ID -->
+					<App_Data App="SVOD" Name="Device_Platform" Value="desktop" />
+					<!-- Fixed value -->
+				</Metadata>
+			</Asset>
+
+			<Asset>
+				<Metadata>			 
+					<AMS Asset_ID="HHBO08233511015300" Creation_Date="2016-05-23" Version_Minor="0" Version_Major="1" Provider_ID="hbogo" Provider="hbogo" Asset_Class="stream" />	
+					<App_Data App="SVOD" Name="Type" Value="SSO" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="URL" Value="http://l3edvphtvp01.cust.footprint.net/B08233506_11EPRHS10C/B08233506_11EPRHS10C_c6.m3u8"/>
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Manifest_Number" Value="c6" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="DRM_Provider" Value="PR-Envelope" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Packaging" Value="HLS" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Usage" Value="VOD" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Provider" Value="hbogo" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Provider_Ref" Value="HHBO08233511015300" />
+					<!-- Asset_ID -->
+					<App_Data App="SVOD" Name="Device_Platform" Value="desktop" />
+					<!-- Fixed value -->
+				</Metadata>
+			</Asset>
+
+			<Asset>
+				<Metadata>			 
+					<AMS Asset_ID="HHBO08233511015300" Creation_Date="2016-05-23" Version_Minor="0" Version_Major="1" Provider_ID="hbogo" Provider="hbogo" Asset_Class="stream" />	
+					<App_Data App="SVOD" Name="Type" Value="SSO" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="URL" Value="http://l3edvphtvp01.cust.footprint.net/B08233506_11EPRHS10C/B08233506_11EPRHS10C_c7.m3u8"/>
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Manifest_Number" Value="c7" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="DRM_Provider" Value="PR-Envelope" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Packaging" Value="HLS" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Usage" Value="VOD" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Provider" Value="hbogo" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Provider_Ref" Value="HHBO08233511015300" />
+					<!-- Asset_ID -->
+					<App_Data App="SVOD" Name="Device_Platform" Value="desktop" />
+					<!-- Fixed value -->
+				</Metadata>
+			</Asset>
+
+			<Asset>
+				<Metadata>			 
+					<AMS Asset_ID="HHBO08233511015300" Creation_Date="2016-05-23" Version_Minor="0" Version_Major="1" Provider_ID="hbogo" Provider="hbogo" Asset_Class="stream" />	
+					<App_Data App="SVOD" Name="Type" Value="SSO" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="URL" Value="http://l3edvphtvp01.cust.footprint.net/B08233506_11EPRHS10C/B08233506_11EPRHS10C_c8.m3u8"/>
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Manifest_Number" Value="c8" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="DRM_Provider" Value="PR-Envelope" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Packaging" Value="HLS" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Usage" Value="VOD" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Provider" Value="hbogo" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Provider_Ref" Value="HHBO08233511015300" />
+					<!-- Asset_ID -->
+					<App_Data App="SVOD" Name="Device_Platform" Value="desktop" />
+					<!-- Fixed value -->
+				</Metadata>
+			</Asset>
+
+			<Asset>
+				<Metadata>			 
+					<AMS Asset_ID="HHBO08233511015300" Creation_Date="2016-05-23" Version_Minor="0" Version_Major="1" Provider_ID="hbogo" Provider="hbogo" Asset_Class="stream" />	
+					<App_Data App="SVOD" Name="Type" Value="SSO" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="URL" Value="http://l3edvphtvp01.cust.footprint.net/B08233506_11EPRHS10C/B08233506_11EPRHS10C_m4.m3u8"/>
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Manifest_Number" Value="m4" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="DRM_Provider" Value="PR-Envelope" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Packaging" Value="HLS" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Usage" Value="VOD" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Provider" Value="hbogo" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Provider_Ref" Value="HHBO08233511015300" />
+					<!-- Asset_ID -->
+					<App_Data App="SVOD" Name="Device_Platform" Value="desktop" />
+					<!-- Fixed value -->
+				</Metadata>
+			</Asset>
+
+			<Asset>
+				<Metadata>			 
+					<AMS Asset_ID="HHBO08233511015300" Creation_Date="2016-05-23" Version_Minor="0" Version_Major="1" Provider_ID="hbogo" Provider="hbogo" Asset_Class="stream" />	
+					<App_Data App="SVOD" Name="Type" Value="SSO" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="URL" Value="http://l3edvphtvp01.cust.footprint.net/B08233506_11EPRHS10C/B08233506_11EPRHS10C_m5.m3u8"/>
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Manifest_Number" Value="m5" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="DRM_Provider" Value="PR-Envelope" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Packaging" Value="HLS" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Usage" Value="VOD" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Provider" Value="hbogo" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Provider_Ref" Value="HHBO08233511015300" />
+					<!-- Asset_ID -->
+					<App_Data App="SVOD" Name="Device_Platform" Value="desktop" />
+					<!-- Fixed value -->
+				</Metadata>
+			</Asset>
+
+			<Asset>
+				<Metadata>			 
+					<AMS Asset_ID="HHBO08233511015300" Creation_Date="2016-05-23" Version_Minor="0" Version_Major="1" Provider_ID="hbogo" Provider="hbogo" Asset_Class="stream" />	
+					<App_Data App="SVOD" Name="Type" Value="SSO" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="URL" Value="http://l3edvphtvp01.cust.footprint.net/B08233506_11EPRHS10C/B08233506_11EPRHS10C_m6.m3u8"/>
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Manifest_Number" Value="m6" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="DRM_Provider" Value="PR-Envelope" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Packaging" Value="HLS" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Usage" Value="VOD" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Provider" Value="hbogo" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Provider_Ref" Value="HHBO08233511015300" />
+					<!-- Asset_ID -->
+					<App_Data App="SVOD" Name="Device_Platform" Value="desktop" />
+					<!-- Fixed value -->
+				</Metadata>
+			</Asset>
+
+			<Asset>
+				<Metadata>			 
+					<AMS Asset_ID="HHBO08233511015300" Creation_Date="2016-05-23" Version_Minor="0" Version_Major="1" Provider_ID="hbogo" Provider="hbogo" Asset_Class="stream" />	
+					<App_Data App="SVOD" Name="Type" Value="SSO" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="URL" Value="http://l3edvphtvp01.cust.footprint.net/B08233506_11EPRHS10C/B08233506_11EPRHS10C_m7.m3u8"/>
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Manifest_Number" Value="m7" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="DRM_Provider" Value="PR-Envelope" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Packaging" Value="HLS" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Usage" Value="VOD" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Provider" Value="hbogo" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Provider_Ref" Value="HHBO08233511015300" />
+					<!-- Asset_ID -->
+					<App_Data App="SVOD" Name="Device_Platform" Value="desktop" />
+					<!-- Fixed value -->
+				</Metadata>
+			</Asset>
+
+			<Asset>
+				<Metadata>			 
+					<AMS Asset_ID="HHBO08233511015300" Creation_Date="2016-05-23" Version_Minor="0" Version_Major="1" Provider_ID="hbogo" Provider="hbogo" Asset_Class="stream" />	
+					<App_Data App="SVOD" Name="Type" Value="SSO" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="URL" Value="http://l3edvphtvp01.cust.footprint.net/B08233506_11EPRHS10C/B08233506_11EPRHS10C_m8.m3u8"/>
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Manifest_Number" Value="m8" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="DRM_Provider" Value="PR-Envelope" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Packaging" Value="HLS" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Usage" Value="VOD" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Provider" Value="hbogo" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Provider_Ref" Value="HHBO08233511015300" />
+					<!-- Asset_ID -->
+					<App_Data App="SVOD" Name="Device_Platform" Value="desktop" />
+					<!-- Fixed value -->
+				</Metadata>
+			</Asset>
+
+			<Asset>
+				<Metadata>			 
+					<AMS Asset_ID="HHBO08233511015300" Creation_Date="2016-05-23" Version_Minor="0" Version_Major="1" Provider_ID="hbogo" Provider="hbogo" Asset_Class="stream" />	
+					<App_Data App="SVOD" Name="Type" Value="SSO" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="URL" Value="http://l3edvphtvp01.cust.footprint.net/B08233506_11EPRHS10C/B08233506_11EPRHS10C_w4.m3u8"/>
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Manifest_Number" Value="w4" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="DRM_Provider" Value="PR-Envelope" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Packaging" Value="HLS" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Usage" Value="VOD" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Provider" Value="hbogo" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Provider_Ref" Value="HHBO08233511015300" />
+					<!-- Asset_ID -->
+					<App_Data App="SVOD" Name="Device_Platform" Value="desktop" />
+					<!-- Fixed value -->
+				</Metadata>
+			</Asset>
+
+			<Asset>
+				<Metadata>			 
+					<AMS Asset_ID="HHBO08233511015300" Creation_Date="2016-05-23" Version_Minor="0" Version_Major="1" Provider_ID="hbogo" Provider="hbogo" Asset_Class="stream" />	
+					<App_Data App="SVOD" Name="Type" Value="SSO" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="URL" Value="http://l3edvphtvp01.cust.footprint.net/B08233506_11EPRHS10C/B08233506_11EPRHS10C_w5.m3u8"/>
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Manifest_Number" Value="w5" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="DRM_Provider" Value="PR-Envelope" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Packaging" Value="HLS" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Usage" Value="VOD" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Provider" Value="hbogo" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Provider_Ref" Value="HHBO08233511015300" />
+					<!-- Asset_ID -->
+					<App_Data App="SVOD" Name="Device_Platform" Value="desktop" />
+					<!-- Fixed value -->
+				</Metadata>
+			</Asset>
+
+			<Asset>
+				<Metadata>			 
+					<AMS Asset_ID="HHBO08233511015300" Creation_Date="2016-05-23" Version_Minor="0" Version_Major="1" Provider_ID="hbogo" Provider="hbogo" Asset_Class="stream" />	
+					<App_Data App="SVOD" Name="Type" Value="SSO" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="URL" Value="http://l3edvphtvp01.cust.footprint.net/B08233506_11EPRHS10C/B08233506_11EPRHS10C_w6.m3u8"/>
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Manifest_Number" Value="w6" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="DRM_Provider" Value="PR-Envelope" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Packaging" Value="HLS" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Usage" Value="VOD" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Provider" Value="hbogo" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Provider_Ref" Value="HHBO08233511015300" />
+					<!-- Asset_ID -->
+					<App_Data App="SVOD" Name="Device_Platform" Value="desktop" />
+					<!-- Fixed value -->
+				</Metadata>
+			</Asset>
+
+			<Asset>
+				<Metadata>			 
+					<AMS Asset_ID="HHBO08233511015300" Creation_Date="2016-05-23" Version_Minor="0" Version_Major="1" Provider_ID="hbogo" Provider="hbogo" Asset_Class="stream" />	
+					<App_Data App="SVOD" Name="Type" Value="SSO" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="URL" Value="http://l3edvphtvp01.cust.footprint.net/B08233506_11EPRHS10C/B08233506_11EPRHS10C_w7.m3u8"/>
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Manifest_Number" Value="w7" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="DRM_Provider" Value="PR-Envelope" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Packaging" Value="HLS" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Usage" Value="VOD" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Provider" Value="hbogo" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Provider_Ref" Value="HHBO08233511015300" />
+					<!-- Asset_ID -->
+					<App_Data App="SVOD" Name="Device_Platform" Value="desktop" />
+					<!-- Fixed value -->
+				</Metadata>
+			</Asset>
+
+			<Asset>
+				<Metadata>			 
+					<AMS Asset_ID="HHBO08233511015300" Creation_Date="2016-05-23" Version_Minor="0" Version_Major="1" Provider_ID="hbogo" Provider="hbogo" Asset_Class="stream" />	
+					<App_Data App="SVOD" Name="Type" Value="SSO" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="URL" Value="http://l3edvphtvp01.cust.footprint.net/B08233506_11EPRHS10C/B08233506_11EPRHS10C_w8.m3u8"/>
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Manifest_Number" Value="w8" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="DRM_Provider" Value="PR-Envelope" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Packaging" Value="HLS" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Usage" Value="VOD" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Provider" Value="hbogo" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Provider_Ref" Value="HHBO08233511015300" />
+					<!-- Asset_ID -->
+					<App_Data App="SVOD" Name="Device_Platform" Value="desktop" />
+					<!-- Fixed value -->
+				</Metadata>
+			</Asset>
+
+
+
+
+
+			<Asset>
+				<Metadata>			 
+					<AMS Asset_ID="HHBO08233511015300" Creation_Date="2016-05-23" Version_Minor="0" Version_Major="1" Provider_ID="hbogo" Provider="hbogo" Asset_Class="stream" />	
+					<App_Data App="SVOD" Name="Type" Value="SSO" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="URL" Value="http://l3edvphtvp01.cust.footprint.net/B08233506_11EPRHS10C/B08233506_11EPRHS10C_c5.mpd"/>
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Manifest_Number" Value="c5" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="DRM_Provider" Value="WV" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Packaging" Value="Dash" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Usage" Value="VOD" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Provider" Value="hbogo" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Provider_Ref" Value="HHBO08233511015300" />
+					<!-- Asset_ID -->
+					<App_Data App="SVOD" Name="Device_Platform" Value="desktop" />
+					<!-- Fixed value -->
+				</Metadata>
+			</Asset>
+
+			<Asset>
+				<Metadata>			 
+					<AMS Asset_ID="HHBO08233511015300" Creation_Date="2016-05-23" Version_Minor="0" Version_Major="1" Provider_ID="hbogo" Provider="hbogo" Asset_Class="stream" />	
+					<App_Data App="SVOD" Name="Type" Value="SSO" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="URL" Value="http://l3edvphtvp01.cust.footprint.net/B08233506_11EPRHS10C/B08233506_11EPRHS10C_c6.mpd"/>
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Manifest_Number" Value="c6" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="DRM_Provider" Value="WV" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Packaging" Value="Dash" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Usage" Value="VOD" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Provider" Value="hbogo" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Provider_Ref" Value="HHBO08233511015300" />
+					<!-- Asset_ID -->
+					<App_Data App="SVOD" Name="Device_Platform" Value="desktop" />
+					<!-- Fixed value -->
+				</Metadata>
+			</Asset>
+
+			<Asset>
+				<Metadata>			 
+					<AMS Asset_ID="HHBO08233511015300" Creation_Date="2016-05-23" Version_Minor="0" Version_Major="1" Provider_ID="hbogo" Provider="hbogo" Asset_Class="stream" />	
+					<App_Data App="SVOD" Name="Type" Value="SSO" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="URL" Value="http://l3edvphtvp01.cust.footprint.net/B08233506_11EPRHS10C/B08233506_11EPRHS10C_c7.mpd"/>
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Manifest_Number" Value="c7" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="DRM_Provider" Value="WV" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Packaging" Value="Dash" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Usage" Value="VOD" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Provider" Value="hbogo" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Provider_Ref" Value="HHBO08233511015300" />
+					<!-- Asset_ID -->
+					<App_Data App="SVOD" Name="Device_Platform" Value="desktop" />
+					<!-- Fixed value -->
+				</Metadata>
+			</Asset>
+
+			<Asset>
+				<Metadata>			 
+					<AMS Asset_ID="HHBO08233511015300" Creation_Date="2016-05-23" Version_Minor="0" Version_Major="1" Provider_ID="hbogo" Provider="hbogo" Asset_Class="stream" />	
+					<App_Data App="SVOD" Name="Type" Value="SSO" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="URL" Value="http://l3edvphtvp01.cust.footprint.net/B08233506_11EPRHS10C/B08233506_11EPRHS10C_c8.mpd"/>
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Manifest_Number" Value="c8" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="DRM_Provider" Value="WV" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Packaging" Value="Dash" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Usage" Value="VOD" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Provider" Value="hbogo" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Provider_Ref" Value="HHBO08233511015300" />
+					<!-- Asset_ID -->
+					<App_Data App="SVOD" Name="Device_Platform" Value="desktop" />
+					<!-- Fixed value -->
+				</Metadata>
+			</Asset>
+
+			<Asset>
+				<Metadata>			 
+					<AMS Asset_ID="HHBO08233511015300" Creation_Date="2016-05-23" Version_Minor="0" Version_Major="1" Provider_ID="hbogo" Provider="hbogo" Asset_Class="stream" />	
+					<App_Data App="SVOD" Name="Type" Value="SSO" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="URL" Value="http://l3edvphtvp01.cust.footprint.net/B08233506_11EPRHS10C/B08233506_11EPRHS10C_m4.mpd"/>
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Manifest_Number" Value="m4" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="DRM_Provider" Value="WV" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Packaging" Value="Dash" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Usage" Value="VOD" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Provider" Value="hbogo" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Provider_Ref" Value="HHBO08233511015300" />
+					<!-- Asset_ID -->
+					<App_Data App="SVOD" Name="Device_Platform" Value="desktop" />
+					<!-- Fixed value -->
+				</Metadata>
+			</Asset>
+
+			<Asset>
+				<Metadata>			 
+					<AMS Asset_ID="HHBO08233511015300" Creation_Date="2016-05-23" Version_Minor="0" Version_Major="1" Provider_ID="hbogo" Provider="hbogo" Asset_Class="stream" />	
+					<App_Data App="SVOD" Name="Type" Value="SSO" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="URL" Value="http://l3edvphtvp01.cust.footprint.net/B08233506_11EPRHS10C/B08233506_11EPRHS10C_m5.mpd"/>
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Manifest_Number" Value="m5" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="DRM_Provider" Value="WV" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Packaging" Value="Dash" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Usage" Value="VOD" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Provider" Value="hbogo" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Provider_Ref" Value="HHBO08233511015300" />
+					<!-- Asset_ID -->
+					<App_Data App="SVOD" Name="Device_Platform" Value="desktop" />
+					<!-- Fixed value -->
+				</Metadata>
+			</Asset>
+
+			<Asset>
+				<Metadata>			 
+					<AMS Asset_ID="HHBO08233511015300" Creation_Date="2016-05-23" Version_Minor="0" Version_Major="1" Provider_ID="hbogo" Provider="hbogo" Asset_Class="stream" />	
+					<App_Data App="SVOD" Name="Type" Value="SSO" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="URL" Value="http://l3edvphtvp01.cust.footprint.net/B08233506_11EPRHS10C/B08233506_11EPRHS10C_m6.mpd"/>
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Manifest_Number" Value="m6" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="DRM_Provider" Value="WV" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Packaging" Value="Dash" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Usage" Value="VOD" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Provider" Value="hbogo" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Provider_Ref" Value="HHBO08233511015300" />
+					<!-- Asset_ID -->
+					<App_Data App="SVOD" Name="Device_Platform" Value="desktop" />
+					<!-- Fixed value -->
+				</Metadata>
+			</Asset>
+
+			<Asset>
+				<Metadata>			 
+					<AMS Asset_ID="HHBO08233511015300" Creation_Date="2016-05-23" Version_Minor="0" Version_Major="1" Provider_ID="hbogo" Provider="hbogo" Asset_Class="stream" />	
+					<App_Data App="SVOD" Name="Type" Value="SSO" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="URL" Value="http://l3edvphtvp01.cust.footprint.net/B08233506_11EPRHS10C/B08233506_11EPRHS10C_m7.mpd"/>
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Manifest_Number" Value="m7" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="DRM_Provider" Value="WV" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Packaging" Value="Dash" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Usage" Value="VOD" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Provider" Value="hbogo" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Provider_Ref" Value="HHBO08233511015300" />
+					<!-- Asset_ID -->
+					<App_Data App="SVOD" Name="Device_Platform" Value="desktop" />
+					<!-- Fixed value -->
+				</Metadata>
+			</Asset>
+
+			<Asset>
+				<Metadata>			 
+					<AMS Asset_ID="HHBO08233511015300" Creation_Date="2016-05-23" Version_Minor="0" Version_Major="1" Provider_ID="hbogo" Provider="hbogo" Asset_Class="stream" />	
+					<App_Data App="SVOD" Name="Type" Value="SSO" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="URL" Value="http://l3edvphtvp01.cust.footprint.net/B08233506_11EPRHS10C/B08233506_11EPRHS10C_m8.mpd"/>
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Manifest_Number" Value="m8" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="DRM_Provider" Value="WV" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Packaging" Value="Dash" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Usage" Value="VOD" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Provider" Value="hbogo" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Provider_Ref" Value="HHBO08233511015300" />
+					<!-- Asset_ID -->
+					<App_Data App="SVOD" Name="Device_Platform" Value="desktop" />
+					<!-- Fixed value -->
+				</Metadata>
+			</Asset>
+
+			<Asset>
+				<Metadata>			 
+					<AMS Asset_ID="HHBO08233511015300" Creation_Date="2016-05-23" Version_Minor="0" Version_Major="1" Provider_ID="hbogo" Provider="hbogo" Asset_Class="stream" />	
+					<App_Data App="SVOD" Name="Type" Value="SSO" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="URL" Value="http://l3edvphtvp01.cust.footprint.net/B08233506_11EPRHS10C/B08233506_11EPRHS10C_w4.mpd"/>
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Manifest_Number" Value="w4" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="DRM_Provider" Value="WV" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Packaging" Value="Dash" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Usage" Value="VOD" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Provider" Value="hbogo" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Provider_Ref" Value="HHBO08233511015300" />
+					<!-- Asset_ID -->
+					<App_Data App="SVOD" Name="Device_Platform" Value="desktop" />
+					<!-- Fixed value -->
+				</Metadata>
+			</Asset>
+
+			<Asset>
+				<Metadata>			 
+					<AMS Asset_ID="HHBO08233511015300" Creation_Date="2016-05-23" Version_Minor="0" Version_Major="1" Provider_ID="hbogo" Provider="hbogo" Asset_Class="stream" />	
+					<App_Data App="SVOD" Name="Type" Value="SSO" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="URL" Value="http://l3edvphtvp01.cust.footprint.net/B08233506_11EPRHS10C/B08233506_11EPRHS10C_w5.mpd"/>
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Manifest_Number" Value="w5" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="DRM_Provider" Value="WV" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Packaging" Value="Dash" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Usage" Value="VOD" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Provider" Value="hbogo" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Provider_Ref" Value="HHBO08233511015300" />
+					<!-- Asset_ID -->
+					<App_Data App="SVOD" Name="Device_Platform" Value="desktop" />
+					<!-- Fixed value -->
+				</Metadata>
+			</Asset>
+
+			<Asset>
+				<Metadata>			 
+					<AMS Asset_ID="HHBO08233511015300" Creation_Date="2016-05-23" Version_Minor="0" Version_Major="1" Provider_ID="hbogo" Provider="hbogo" Asset_Class="stream" />	
+					<App_Data App="SVOD" Name="Type" Value="SSO" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="URL" Value="http://l3edvphtvp01.cust.footprint.net/B08233506_11EPRHS10C/B08233506_11EPRHS10C_w6.mpd"/>
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Manifest_Number" Value="w6" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="DRM_Provider" Value="WV" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Packaging" Value="Dash" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Usage" Value="VOD" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Provider" Value="hbogo" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Provider_Ref" Value="HHBO08233511015300" />
+					<!-- Asset_ID -->
+					<App_Data App="SVOD" Name="Device_Platform" Value="desktop" />
+					<!-- Fixed value -->
+				</Metadata>
+			</Asset>
+
+			<Asset>
+				<Metadata>			 
+					<AMS Asset_ID="HHBO08233511015300" Creation_Date="2016-05-23" Version_Minor="0" Version_Major="1" Provider_ID="hbogo" Provider="hbogo" Asset_Class="stream" />	
+					<App_Data App="SVOD" Name="Type" Value="SSO" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="URL" Value="http://l3edvphtvp01.cust.footprint.net/B08233506_11EPRHS10C/B08233506_11EPRHS10C_w7.mpd"/>
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Manifest_Number" Value="w7" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="DRM_Provider" Value="WV" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Packaging" Value="Dash" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Usage" Value="VOD" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Provider" Value="hbogo" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Provider_Ref" Value="HHBO08233511015300" />
+					<!-- Asset_ID -->
+					<App_Data App="SVOD" Name="Device_Platform" Value="desktop" />
+					<!-- Fixed value -->
+				</Metadata>
+			</Asset>
+
+			<Asset>
+				<Metadata>			 
+					<AMS Asset_ID="HHBO08233511015300" Creation_Date="2016-05-23" Version_Minor="0" Version_Major="1" Provider_ID="hbogo" Provider="hbogo" Asset_Class="stream" />	
+					<App_Data App="SVOD" Name="Type" Value="SSO" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="URL" Value="http://l3edvphtvp01.cust.footprint.net/B08233506_11EPRHS10C/B08233506_11EPRHS10C_w8.mpd"/>
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Manifest_Number" Value="w8" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="DRM_Provider" Value="WV" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Packaging" Value="Dash" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Usage" Value="VOD" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Provider" Value="hbogo" />
+					<!-- Fixed value -->
+					<App_Data App="SVOD" Name="Provider_Ref" Value="HHBO08233511015300" />
+					<!-- Asset_ID -->
+					<App_Data App="SVOD" Name="Device_Platform" Value="desktop" />
+					<!-- Fixed value -->
+				</Metadata>
+			</Asset>
+
+
+		</Asset>
+		<!-- Recursos (ResourcesLinks) -->
+		<Asset>
+			<Metadata>
+				<AMS Asset_ID="HHBO08233511015300" Creation_Date="2016-05-23" Version_Minor="0" Version_Major="1" Provider_ID="hbogo" Provider="hbogo" Asset_Class="poster" />
+				<App_Data App="SVOD" Name="Image_Type" Value="POSTER" />
+				<App_Data App="SVOD" Name="Image_Aspect_Ratio" Value="480x720"/>		
+			</Metadata>
+
+			<Content Value="HBO082335_CLN_480x720.jpg" />
+
+		</Asset>
+		
+		<Asset>
+			<Metadata>
+				<AMS Asset_ID="HHBO08233511015300" Creation_Date="2016-05-23" Version_Minor="0" Version_Major="1" Provider_ID="hbogo" Provider="hbogo" Asset_Class="poster" />
+				<App_Data App="SVOD" Name="Image_Type" Value="SNAPSHOT" />
+				<App_Data App="SVOD" Name="Image_Aspect_Ratio" Value="960x540"/>
+			</Metadata>
+			<Content Value="HBO082335_CLN_960x540.jpg" />
+		</Asset>
+		<Asset>
+			<Metadata>
+				<AMS Asset_ID="HHBO08233511015300" Creation_Date="2016-05-23" Version_Minor="0" Version_Major="1" Provider_ID="hbogo" Provider="hbogo" Asset_Class="poster" />
+				<App_Data App="SVOD" Name="Image_Type" Value="BACKGROUND" />
+				<App_Data App="SVOD" Name="Image_Aspect_Ratio" Value="1920x1080"/>
+			</Metadata>
+			<Content Value="HBO082335_CLN_1920x1080.jpg" />
+		</Asset>
+	</Asset>
+</ADI>
